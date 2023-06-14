@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Cinzel:wght@800&family=Comic+Neue:wght@700&family=DM+Serif+Display:ital@1&family=Dongle:wght@300&family=Frijole&family=Kanit:wght@300&family=Monoton&family=Nunito&family=Poppins:wght@100;400&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Rye&family=Tapestry&family=Tillana:wght@700&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue';
+}
+
+.background {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background-size: cover;
+}
+
+.container-box {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.box {
+    display: block;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    overflow: hidden;
+}
+
+.h1 {
+    font-family:"Nunito";
+    font-weight: bold !important;
+    color: rgb(51, 1, 56);
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-h {
+    font-family: "Nunito";
+    font-weight: 500 !important;
+
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: solid 2px rgb(212, 210, 210);
+
+}
+
+.edit {
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(44, 60, 122);
+    height: 35px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: .5S;
+}
+
+.edit:hover {
+    background-color: rgb(44, 60, 122);
+    color: white;
+}
+
+.add {
+    background-color: transparent;
+    color: rgb(12, 129, 63);
+    border: solid 1px rgb(3, 99, 40);
+    height: 35px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: .5S;
+}
+
+.add:hover {
+    background-color: rgb(27, 162, 79);
+    color: white;
+}
+
+.welcome-h {
+    font-family: "Nunito";
+    font-size: 39px;
+    font-weight: 700 !important;
+    color: white;
+}
+
+
+
+.header {
+    border-radius: 5px;
+    background-image: url('https://img.freepik.com/premium-vector/workplace-with-laptop-smartphone-newspapers-articles-cup-coffee-notebook-pen-with-pencil-headphones-hand-drawn-doodle-illustration_379823-655.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Darker background color */
+    background-blend-mode: hue;
+}
+
+.header h1 {
+    color: #ffffff;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+
+.date {
+    font-size: 15px;
+}
+
+s {
+    color: green;
+}
+
+.task-wrapper:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.task-wrapper {
+    background-color: #e9ecef;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 690px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        overflow: hidden;
+    }
+}
