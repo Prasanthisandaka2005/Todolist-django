@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Cinzel:wght@800&family=Comic+Neue:wght@700&family=DM+Serif+Display:ital@1&family=Dongle:wght@300&family=Frijole&family=Kanit:wght@300&family=Monoton&family=Nunito&family=Poppins:wght@100;400&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Rye&family=Tapestry&family=Tillana:wght@700&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Cinzel:wght@800&family=Comic+Neue:wght@400;700&family=DM+Serif+Display:ital@1&family=Dongle:wght@300&family=Frijole&family=Kalam&family=Kanit:wght@300&family=Lora:ital,wght@1,700&family=Marcellus&family=Monoton&family=Nunito&family=Poppins:wght@100;400&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Rye&family=Tapestry&family=Tillana:wght@700&family=Tilt+Prism&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Comic Neue';
+    font-family: 'Marcellus';
 }
 
 .background {
@@ -59,7 +60,7 @@ a {
 }
 
 .font-h {
-    font-family: "Nunito";
+    /*font-family: "Nunito";*/
     font-weight: 500 !important;
 
 }
@@ -85,7 +86,7 @@ a {
     padding-right: 10px;
     border-radius: 5px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     cursor: pointer;
     transition: .5S;
 }
@@ -105,7 +106,7 @@ a {
     padding-right: 10px;
     border-radius: 5px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     cursor: pointer;
     transition: .5S;
 }
@@ -116,7 +117,7 @@ a {
 }
 
 .welcome-h {
-    font-family: "Nunito";
+    /*font-family: "Nunito";*/
     font-size: 39px;
     font-weight: 700 !important;
     color: white;
@@ -134,7 +135,13 @@ a {
 
 .header h1 {
     color: #ffffff;
+    font-family: "Lora";
+
 }
+.header h5 {
+    font-family: "Lora";
+}
+
 
 .title {
     font-size: 20px;
