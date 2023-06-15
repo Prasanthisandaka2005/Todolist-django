@@ -5,13 +5,13 @@
 
 
 
-<div class="header p-4 pt-5 pb-5">
+<div class="header p-4 pt-5 pb-2">
     <div>
-        <h1 class="welcome-h pb-4">Hello {{request.user|title}}</h1>
+        <h1 class="welcome-h pb-1">Hello {{request.user|title}}</h1>
         <h5 class="text-white">You have {{count}} incomplete task{{ count|pluralize:"s" }}</h5>
     </div>
 {% if request.user.is_authenticated %}
-<a href="{% url 'logout'  %}"><button class="btn btn-danger mt-3">Logout</button></a>
+<a href="{% url 'logout'  %}"><button class="btn btn-danger mt-2">Logout</button></a>
 {% else %}
 <a  href="{% url 'login'  %}"><button class="btn btn-success">Login</button></a>
 {% endif %}
@@ -27,7 +27,7 @@
         {% if task.complete %}
         <div class="task-wrapper">
         <i><s><p class="title">{{task.title}}</p></s></i>
-        <p class="date">{{task.create}}</p>
+<!--         <p class="date">{{task.create}}</p> -->
         <a href="{% url 'task-update' task.id %}"><button class="edit">Edit</button></a>
         <a href="{% url 'task-delete' task.id %}">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="red" class="bi bi-trash icon"
@@ -43,7 +43,7 @@
         {% else %}
         <div class="task-wrapper">
         <p class="title">{{task.title}}</p>
-        <p class="date">{{task.create}}</p>
+<!--         <p class="date">{{task.create}}</p> -->
         <a href="{% url 'task-update' task.id %}"><button class="edit">Edit</button></a>
         <a class="delete-link" href="{% url 'task-delete' task.id %}"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="red" class="bi bi-trash icon"
                         viewBox="0 0 16 16">
