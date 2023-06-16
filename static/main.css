@@ -37,7 +37,7 @@ body {
 }
 
 .h1 {
-    font-family:"Nunito";
+    font-family: "Nunito";
     font-weight: bold !important;
     color: rgb(51, 1, 56);
     text-align: center;
@@ -127,8 +127,8 @@ a {
 
 .header {
     border-radius: 5px;
-    background-image: url('https://img.freepik.com/premium-vector/workplace-with-laptop-smartphone-newspapers-articles-cup-coffee-notebook-pen-with-pencil-headphones-hand-drawn-doodle-illustration_379823-655.jpg');
-    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://previews.123rf.com/images/sanek13744/sanek137441802/sanek13744180200163/95756025-to-do-list-seamless-pattern-background-business-flat-vector-illustration-checklist-task-list.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
     /* Darker background color */
     background-blend-mode: hue;
 }
@@ -138,8 +138,10 @@ a {
     font-family: "Lora";
 
 }
+
 .header h5 {
     font-family: "Lora";
+    color: rgb(212, 210, 229) !important;
 }
 
 
